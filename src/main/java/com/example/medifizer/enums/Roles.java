@@ -1,5 +1,6 @@
 package com.example.medifizer.enums;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
