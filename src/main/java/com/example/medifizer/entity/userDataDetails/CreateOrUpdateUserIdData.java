@@ -1,7 +1,8 @@
 package com.example.medifizer.entity.userDataDetails;
 
 import com.example.medifizer.baseClass.BaseDtoEntity;
-import jakarta.validation.constraints.Email;
+
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,6 +20,6 @@ public class CreateOrUpdateUserIdData extends BaseDtoEntity {
     @Serial
     private static final long serialVersionUID = 8558613564633822393L;
     private UUID userReference;
-    private Email userEmailData;
+    private String userEmailData;
     private LocalDateTime localDateTime;
 }
