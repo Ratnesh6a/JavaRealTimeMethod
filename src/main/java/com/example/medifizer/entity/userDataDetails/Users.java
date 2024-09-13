@@ -1,13 +1,9 @@
-package com.example.medifizer.entity;
+package com.example.medifizer.entity.userDataDetails;
 
 import com.example.medifizer.baseClass.BaseDtoEntity;
 import com.example.medifizer.enums.Roles;
-import com.example.medifizer.enums.Token;
-import com.fasterxml.jackson.annotation.JsonEnumDefaultValue;
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.Type;
-import org.springframework.context.annotation.Bean;
 
 import java.io.Serial;
 import java.util.UUID;

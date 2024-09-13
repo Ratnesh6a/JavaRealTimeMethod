@@ -1,6 +1,6 @@
 package com.example.medifizer.repository;
 
-import com.example.medifizer.entity.Users;
+import com.example.medifizer.entity.userDataDetails.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

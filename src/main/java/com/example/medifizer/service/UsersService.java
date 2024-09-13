@@ -1,15 +1,10 @@
 package com.example.medifizer.service;
 
 import com.example.medifizer.controller.request.UsersRequestType;
-import com.example.medifizer.entity.Users;
-import com.example.medifizer.enums.Roles;
+import com.example.medifizer.entity.userDataDetails.Users;
 import com.example.medifizer.repository.UsersRepository;
-import jakarta.servlet.ServletOutputStream;
 import lombok.AllArgsConstructor;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @Service
 @AllArgsConstructor
