@@ -35,7 +35,6 @@ public class VerificationTrack extends BaseDtoEntity {
     private LocalDateTime lasUpdatedDate;
     private LocalDateTime verifierDate;
     private BaseDtoEntity originalVersion;
-    @Transient
     private AbstractVerificationTrackChanges verificationTrackChanges;
     private AssignUserData assignUserData;
 
